@@ -45,7 +45,6 @@ class TestCensusDatabase(unittest.TestCase):
         expected = ('43333333K', 'Carmen', 'Pérez', True)
         self.assertTupleEqual(expected, actual)
 
-
     def test_deleting_voters(self):
         """
         Tests that we can delete a voter that exists
