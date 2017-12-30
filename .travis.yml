@@ -1,7 +1,7 @@
 anguage: python
 python:
   - "3.6"
-  before_install:
+before_install:
   - pip install pytest-cov
   - cd python
 # command to run tests
