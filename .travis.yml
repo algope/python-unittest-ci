@@ -2,5 +2,5 @@ anguage: python
 python:
   - "3.6"
 before_install:
-  - pip install pytest
+  - pip3 install pytest
 script: py.test
