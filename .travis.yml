@@ -1,6 +1,6 @@
-anguage: python
+language: python
 python:
-  - "3.6"
+  - "3.6.3"
 before_install:
   - pip3 install pytest
 script: py.test
